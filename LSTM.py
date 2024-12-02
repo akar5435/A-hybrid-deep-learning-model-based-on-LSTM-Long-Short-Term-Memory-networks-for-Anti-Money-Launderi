@@ -16,7 +16,7 @@ from imblearn.over_sampling import SMOTE
 from scikeras.wrappers import KerasClassifier
 
 # Load the dataset
-data_path = 'C:/python/find_LSTM_2024_1.0/HI-Small_Trans.csv'
+data_path = 'path/to/dataset'
 df = pd.read_csv(data_path)
 
 # Dataset information
