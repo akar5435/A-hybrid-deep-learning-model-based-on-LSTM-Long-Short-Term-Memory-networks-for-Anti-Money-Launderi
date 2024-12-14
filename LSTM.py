@@ -25,7 +25,7 @@ print("Columns:", df.columns)
 print(df.head())
 print(df.info())
 
-# Take a sample of 50000 rows for analysis
+# Take a sample of 50000 rows for analysis (if dataset size too big)
 sampled_df = df.sample(n=50000, random_state=42)
 
 # Check target variable distribution in the sampled DataFrame
